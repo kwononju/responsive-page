@@ -1,5 +1,7 @@
 # 반응형 웹 페이지 스터디
+
 - 본 사이트는 스터디 목적으로 제작되었습니다. 문제 발생시 연락 주시면 즉각 조치하겠습니다.
+
 ## git, gitHub
 
 - git: 형상관리도구(버전관리도구)(https://git-scm.com/)
@@ -21,27 +23,39 @@
 
 ### Global Git 사용자 설정
 
-- GitHub 가입시 설정한 "이메일", "아이디" 사용
+- gitHub 가입시 설정한 "이메일", "아이디" 사용
 - 아이디, 이메일 설정
-- git config --global user.name "kwononju" 
-- git config --global user.email "onjuu1016@gmail.com"
+- git config --global user.name "깃허브 가입시 아이디"
+- git config --global user.email "깃허브 가입시 이메일"
 
 - 참고: 터미널 청소하기 명령어 clear
 
---------------------------------- 위 내용은 최초 한 번만 설정 -------------------------------
+----------------- 위 내용은 최초 한 번만 설정 ----------------
 
-### GitHub repository 생성하기
+### gitHub repository 생성하기
 
 - repository 이름은 폴더명과 똑같이 설정하는 것을 추천
 - git 초기화 하기(폴더별로 최초 한번 설정)
-    - git init
+  - git init
 - 파일 추가
-    - git add .
+  - git add .
 - 수정 내용 커밋 하기
-- git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성"
+  - git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성"
 - gitHub repository에 최초 업로드
-- git status
+- 수정 내용 커밋 하기
+  - git commit -m "반응형 웹페이지 실습 프로젝트 최초 생성"
+  - git status
 - gitHub repository 업데이트
-- git add .
-- git commit -m "커밋 내용"
-- git push orgin main
+  - git add .
+  - git commit -m "커밋 내용"
+  - git push origin main
+
+### 레포지토리 클론하기
+
+- 레포지토리와 같은 이름의 폴더 생성
+- git clone "본인 레포토리 주소" ./
+
+### 최종 코드로 업데이트 하기
+
+- git fetch
+- git merge origin/main
